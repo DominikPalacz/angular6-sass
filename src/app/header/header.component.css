@@ -1,0 +1,10 @@
+.content {
+  background-color: green; }
+  .content header {
+    background-color: gold; }
+    .content header h1 {
+      background-color: red; }
+    .content header p {
+      background-color: blue; }
+
+/*# sourceMappingURL=header.component.css.map */
