@@ -1,10 +1,29 @@
-.content {
-  background-color: green; }
-  .content header {
-    background-color: gold; }
-    .content header h1 {
-      background-color: red; }
-    .content header p {
-      background-color: blue; }
+header {
+  height: 15vh;
+  background-color: #003A49;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #eee; }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    background-color: #003A49; }
+    header .container .logo h1 {
+      font-size: 3em; }
+    header .container nav {
+      display: flex;
+      align-items: center; }
+      header .container nav ul {
+        display: flex;
+        margin: 0 auto;
+        list-style: none; }
+        header .container nav ul li {
+          font-size: 1.5em;
+          margin: 0 10px; }
+          header .container nav ul li:hover {
+            color: #00ABC7; }
 
 /*# sourceMappingURL=header.component.css.map */

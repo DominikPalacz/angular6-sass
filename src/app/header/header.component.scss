@@ -1,13 +1,49 @@
-.content{
-  background-color: green;
-  header {
-    background-color: gold;
-    h1 {
-      background-color: red;
+$header: #003A49;
+$text: #eee;
+$text-hover: #00ABC7;
+
+header {
+
+  height: 15vh;
+  background-color: $header;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $text;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    background-color: $header;
+
+    .logo {
+
+      h1 {
+        font-size: 3em;
+      }
     }
-    p {
-      background-color: blue;
+
+    nav {
+      display: flex;
+      align-items: center;
+
+      ul {
+        display: flex;
+        margin: 0 auto;
+        list-style: none;
+
+        li {
+          font-size: 1.5em;
+          margin: 0 10px;
+          &:hover {
+            color: $text-hover;
+          }
+        }
+      }
     }
+
   }
 
 }
