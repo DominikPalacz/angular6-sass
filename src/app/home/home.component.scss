@@ -1,10 +1,8 @@
-$main: #E3EAF1;
-$card-border: #000;
-$card: #FFFFFF;
+@import "../../styles";
 
 main {
   //height: 70vh;
-  background-color: $main;
+  background-color: $main-color;
   display: flex;
   justify-content: center;
 
@@ -17,7 +15,7 @@ main {
     margin: 50px 0;
 
     .card {
-      background-color: $card;
+      background-color: $card-color;
       cursor: pointer;
       height: 150px;
       width: 300px;
@@ -44,7 +42,7 @@ main {
 
         p {
           font-size: 3em;
-          color: $main;
+          color: $main-color;
         }
       }
 

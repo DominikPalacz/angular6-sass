@@ -1,21 +1,15 @@
-$footer: #323232;
-$text: #eee;
-$text-hover: #00ABC7;
+@import "../../styles";
 
 footer {
   height: 20vh;
-  background-color: $footer;
+  background-color: $footer-color;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: $text;
 
   .container {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    width: 90%;
-    background-color: $footer;
+    @include containerStart($footer-color);
 
     .item {
       cursor: pointer;

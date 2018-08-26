@@ -1,21 +1,15 @@
-$header: #003A49;
-$text: #eee;
-$text-hover: #00ABC7;
+@import "../../styles";
 
 header {
   height: 10vh;
-  background-color: $header;
+  background-color: $header-color;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: $text;
 
   .container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 90%;
-    background-color: $header;
+    @include containerStart($header-color);
 
     .logo {
 

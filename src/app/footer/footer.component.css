@@ -1,3 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box; }
+
 footer {
   height: 20vh;
   background-color: #323232;
@@ -7,7 +13,7 @@ footer {
   color: #eee; }
   footer .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0 auto;
     width: 90%;
     background-color: #323232; }
