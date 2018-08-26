@@ -3,7 +3,7 @@ $text: #eee;
 $text-hover: #00ABC7;
 
 footer {
-  height: 25vh;
+  height: 20vh;
   background-color: $footer;
   display: flex;
   flex-direction: column;
@@ -18,12 +18,14 @@ footer {
     background-color: $footer;
 
     .item {
+      cursor: pointer;
 
       h2 {
         font-size: 5em;
         &:hover {
           color: $text-hover;
           transform: scale(1.5);
+          transition-duration: 0.1s;
         }
       }
     }

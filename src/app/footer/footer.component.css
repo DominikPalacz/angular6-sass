@@ -1,5 +1,5 @@
 footer {
-  height: 25vh;
+  height: 20vh;
   background-color: #323232;
   display: flex;
   flex-direction: column;
@@ -11,10 +11,13 @@ footer {
     margin: 0 auto;
     width: 90%;
     background-color: #323232; }
-    footer .container .item h2 {
-      font-size: 5em; }
-      footer .container .item h2:hover {
-        color: #00ABC7;
-        transform: scale(1.5); }
+    footer .container .item {
+      cursor: pointer; }
+      footer .container .item h2 {
+        font-size: 5em; }
+        footer .container .item h2:hover {
+          color: #00ABC7;
+          transform: scale(1.5);
+          transition-duration: 0.1s; }
 
 /*# sourceMappingURL=footer.component.css.map */

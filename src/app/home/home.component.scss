@@ -1,0 +1,60 @@
+$main: #E3EAF1;
+$card-border: #000;
+$card: #FFFFFF;
+
+main {
+  height: 70vh;
+  background-color: $main;
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .card {
+      background-color: $card;
+      cursor: pointer;
+      height: 150px;
+      width: 300px;
+      border: 2px solid $card-border;
+
+      &:hover {
+        transform: scale(1.06);
+        transition-duration: 0.1s;
+        filter: brightness(0.9);
+      }
+
+      .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: 100px;
+        top: -50px;
+        background-color: $card-border;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          font-size: 3em;
+          color: $main;
+        }
+      }
+
+      .box {
+        display: flex;
+        justify-content: center;
+        p {
+          font-size: 3em;
+          color: $card-border
+        }
+      }
+    }
+
+  }
+}

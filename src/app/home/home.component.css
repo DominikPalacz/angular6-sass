@@ -1,0 +1,43 @@
+main {
+  height: 70vh;
+  background-color: #E3EAF1;
+  display: flex;
+  justify-content: center; }
+  main .container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; }
+    main .container .card {
+      background-color: #FFFFFF;
+      cursor: pointer;
+      height: 150px;
+      width: 300px;
+      border: 2px solid #000; }
+      main .container .card:hover {
+        transform: scale(1.06);
+        transition-duration: 0.1s;
+        filter: brightness(0.9); }
+      main .container .card .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: relative;
+        left: 100px;
+        top: -50px;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .container .card .circle p {
+          font-size: 3em;
+          color: #E3EAF1; }
+      main .container .card .box {
+        display: flex;
+        justify-content: center; }
+        main .container .card .box p {
+          font-size: 3em;
+          color: #000; }
+
+/*# sourceMappingURL=home.component.css.map */
