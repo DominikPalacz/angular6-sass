@@ -3,7 +3,7 @@ $card-border: #000;
 $card: #FFFFFF;
 
 main {
-  height: 70vh;
+  //height: 70vh;
   background-color: $main;
   display: flex;
   justify-content: center;
@@ -14,6 +14,7 @@ main {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    margin: 50px 0;
 
     .card {
       background-color: $card;
@@ -21,6 +22,7 @@ main {
       height: 150px;
       width: 300px;
       border: 2px solid $card-border;
+      margin: 50px 0;
 
       &:hover {
         transform: scale(1.06);
