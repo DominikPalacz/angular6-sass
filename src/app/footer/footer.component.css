@@ -1,0 +1,20 @@
+footer {
+  height: 25vh;
+  background-color: #323232;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #eee; }
+  footer .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 90%;
+    background-color: #323232; }
+    footer .container .item h2 {
+      font-size: 5em; }
+      footer .container .item h2:hover {
+        color: #00ABC7;
+        transform: scale(1.5); }
+
+/*# sourceMappingURL=footer.component.css.map */
