@@ -1,0 +1,27 @@
+@import "../../styles";
+
+footer {
+  height: 20vh;
+  background-color: $footer-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $text;
+
+  .container {
+    @include containerStart($footer-color);
+
+    .item {
+      cursor: pointer;
+
+      h2 {
+        font-size: 5em;
+        &:hover {
+          color: $text-hover;
+          transform: scale(1.5);
+          transition-duration: 0.1s;
+        }
+      }
+    }
+  }
+}

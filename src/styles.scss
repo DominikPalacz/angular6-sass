@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+
+}
+
+$footer-color: #323232;
+$text: #eee;
+$text-hover: #00ABC7;
+
+$header-color: #003A49;
+
+$main-color: #E3EAF1;
+$card-border: #000;
+$card-color: #FFFFFF;
+
+@mixin containerStart($color) {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  background-color: $color
+}

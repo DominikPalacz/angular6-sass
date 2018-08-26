@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box; }
+
+header {
+  height: 10vh;
+  background-color: #003A49;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #eee; }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    background-color: #003A49; }
+    header .container .logo h1 {
+      font-size: 3em; }
+    header .container nav {
+      display: flex;
+      align-items: center; }
+      header .container nav ul {
+        display: flex;
+        margin: 0 auto;
+        list-style: none; }
+        header .container nav ul li {
+          cursor: pointer;
+          font-size: 1.5em;
+          margin: 0 10px; }
+          header .container nav ul li:hover {
+            color: #00ABC7; }
+
+/*# sourceMappingURL=header.component.css.map */
