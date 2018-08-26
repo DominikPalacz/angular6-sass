@@ -26,11 +26,13 @@ header {
         display: flex;
         margin: 0 auto;
         list-style: none; }
-        header .container nav ul li {
+        header .container nav ul li a {
+          color: #eee;
+          text-decoration: none;
           cursor: pointer;
           font-size: 1.5em;
           margin: 0 10px; }
-          header .container nav ul li:hover {
+          header .container nav ul li a:hover {
             color: #00ABC7; }
 
 /*# sourceMappingURL=header.component.css.map */
